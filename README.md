@@ -14,28 +14,32 @@ Autores:
 
 El programa resuelve y grafica los siguientes casos:
 
-1. **EDO de primer orden:**  
-   \[
+1. **EDO de primer orden:**
+
+   $$
    \frac{dy}{dt} = -2y + 1, \quad y(0) = 0
-   \]  
-   Solución analítica: \( y(t) = \frac{1}{2}(1 - e^{-2t}) \)
+   $$
 
-2. **EDO de segundo orden:**  
-   \[
+   Solución analítica: $$ y(t) = \frac{1}{2}(1 - e^{-2t}) $$
+
+2. **EDO de segundo orden:**
+
+   $$
    \frac{d^2y}{dt^2} = -9y, \quad y(0) = 1, \quad y'(0) = 0
-   \]  
-   Solución analítica: \( y(t) = \cos(3t) \)
+   $$
 
-3. **Sistema de EDOs 2x2:**  
-   \[
+   Solución analítica: $$ y(t) = \cos(3t) $$
+
+3. **Sistema de EDOs 2x2:**
+   $$
    \begin{cases}
    \frac{dx}{dt} = 3x + 4y \\
    \frac{dy}{dt} = -4x + 3y
    \end{cases}, \quad x(0) = 1, \quad y(0) = 0
-   \]  
+   $$
    Solución analítica:  
-   \( x(t) = e^{3t}\cos(4t) \)  
-   \( y(t) = -e^{3t}\sin(4t) \)
+   $$ x(t) = e^{3t}\cos(4t) $$  
+   $$ y(t) = -e^{3t}\sin(4t) $$
 
 Para cada caso, se grafican las soluciones numéricas y analíticas, y se calcula el error de cada método.
 
